@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "sst dev",
-    "test": "sst bind 'vitest --run --no-threads'",
+    "test-without-threads": "sst bind 'vitest --run --no-threads'",
+    "test-with-threads": "sst bind 'vitest --run'",
     "build": "sst build",
     "deploy": "sst deploy",
     "remove": "sst remove",
